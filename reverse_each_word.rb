@@ -1,9 +1,9 @@
 def reverse_each_word(string)
   string.split(" ") 
-  string.each do |word| 
-    puts word.reverse
-  end
+  string.each {|word| puts word.reverse}
 end
+
+# one\ntwo\nthree".each {|word| puts word.capitalize}
 
 # examples:
 # "1,2,3,4".split(',') # "1", "2", "3", "4"]
