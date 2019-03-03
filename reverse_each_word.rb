@@ -1,8 +1,13 @@
 def reverse_each_word
-  word.collect do |word|
+  word.each do {
+
+
+# .collect my code
+# def reverse_each_word
+#   word.collect do |word|
     
-  end
-end
+#   end
+# end
 
 
 # .collect example
