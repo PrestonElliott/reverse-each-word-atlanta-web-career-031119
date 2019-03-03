@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-  string.split(" ") 
-  return string.each {|word| puts word.reverse}
+  puts string.split(" ") 
+  string.each {|word| puts word.reverse}
 end
 
 # one\ntwo\nthree".each {|word| puts word.capitalize}
