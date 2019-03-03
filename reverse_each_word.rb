@@ -2,6 +2,9 @@ def reverse_each_word(string)
   string.each {|word| puts word.split(" ")}
 end
 
+
+# myArray = "ABCDEFGHIJKLMNOP".split(//)
+# => ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"]
 # "1,2,3,4".split(",")
 # ["1", "2", "3", "4"]
 
